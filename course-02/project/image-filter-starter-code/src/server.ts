@@ -44,6 +44,11 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
     });
     // res.send(req.query)
   });
+
+  app.get("/", async (req, res) => {
+    res.send("try GET /filteredimage?image_url={{}}")
+  });
+
   // Root Endpoint
   // Displays a simple message to the user
   app.get("/", async (req, res) => {
