@@ -44,5 +44,7 @@ Prevent requests without valid authentication headers.
 
 ### Custom Domain Name
 
+https://us-east-1.console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1#/environment/dashboard?applicationName=udagramMokadem&environmentId=e-bnvre23ptx
+
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
